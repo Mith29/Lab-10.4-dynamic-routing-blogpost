@@ -10,11 +10,11 @@ export default function NavBar() {
 
 			{isAuthenticated ? (
 				<>
-					<Link to="/Admin">Admin</Link>
+					<Link to="./Admin">Admin</Link>
 					<button onClick={logout}>Log Out</button>
 				</>
 			) : (
-				<Link to="/Login">Log in</Link>
+				<Link to="./Login">Log in</Link>
 			)}
 		</nav>
 	);
